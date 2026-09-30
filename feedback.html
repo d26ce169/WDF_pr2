@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>StudentHub - Feedback</title>
+</head>
+<body>
+
+<header>
+    <h1>StudentHub Feedback</h1>
+
+    <nav>
+        <a href="dashboard.html">Dashboard</a> |
+        <a href="profile.html">Profile</a> |
+        <a href="events.html">Events</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="faq.html">FAQ</a> |
+        <a href="feedback.html">Feedback</a> |
+        <a href="index.html">Logout</a>
+    </nav>
+</header>
+
+<main>
+
+    <h2>Give Your Feedback</h2>
+
+    <form action="dashboard.html" method="get">
+
+        <p>
+            <label>Name:</label><br>
+            <input type="text" name="name" required>
+        </p>
+
+        <p>
+            <label>Email:</label><br>
+            <input type="email" name="email" required>
+        </p>
+
+        <p>
+            <label>Rating:</label><br>
+
+            <input type="radio" name="rating" value="Excellent" required>
+            <label>Excellent</label><br>
+
+            <input type="radio" name="rating" value="Good">
+            <label>Good</label><br>
+
+            <input type="radio" name="rating" value="Average">
+            <label>Average</label><br>
+
+            <input type="radio" name="rating" value="Poor">
+            <label>Poor</label>
+        </p>
+
+        <p>
+            <label>Your Feedback:</label><br>
+            <textarea name="feedback" rows="6" required></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Submit Feedback">
+            <input type="reset" value="Clear">
+        </p>
+
+    </form>
+
+</main>
+
+<footer>
+    <p>Copyright 2026 StudentHub</p>
+</footer>
+
+</body>
+</html>
